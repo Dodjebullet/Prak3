@@ -1,0 +1,8 @@
+VAR
+	ETAD : UINT;
+	CMDD : UINT;
+	Speed : INT;
+	LCR : UINT;
+	OTR : INT;
+	RUN : BOOL;
+END_VAR

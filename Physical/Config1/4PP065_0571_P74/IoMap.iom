@@ -1,0 +1,8 @@
+VAR_CONFIG
+	::CMDD AT %QW."8I64xxxxxxx.00x-1".CMDD_Output;
+	::ETAD AT %IW."8I64xxxxxxx.00x-1".ETAD_Input;
+	::OTR AT %IW."8I64xxxxxxx.00x-1".OTR_Input;
+	::LCR AT %IW."8I64xxxxxxx.00x-1".LCR_Input;
+	::Speed AT %QW."8I64xxxxxxx.00x-1".LFRD_Output;
+	::RUN AT %IX."X20DI9371".DigitalInput01;
+END_VAR

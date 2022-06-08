@@ -1,0 +1,11 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=5 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                    CMDD                                     UINT    3 "                                                               6"    0    6    1   10    0    0         
+                                    ETAD                                     UINT    1 "                                                             545"    0    6    1   10    0    0         
+                                     OTR                                      INT    1 "                                                               0"    0    3    1   10    0    0         
+                                     RUN                                     BOOL    1 "                                                           FALSE"    0    1    1    2    0    0         
+                                   Speed                                      INT    3 "                                                             500"    0    3    1   10    0    0         
+                               speedDown                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                 speedUp                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                   STATE                                     UINT    0 "                                                              33"    0    6    1   10    1    0         

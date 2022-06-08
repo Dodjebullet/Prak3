@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">6</UInt32>
+          <UInt32 Name="ImageSize">8</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="Program:speedUp">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="Program:speedDown">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">1</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">16</Int32>
+            </Group>
+            <Group Name="Program:Onlinerun">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">2</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">34</Int32>
+            </Group>
+            <Group Name="Program:Reset">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">3</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">52</Int32>
+            </Group>
+            <Group Name="OTR">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">4</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">66</Int32>
+            </Group>
+            <Group Name="Speed">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">6</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">70</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">UHJvZ3JhbTpzcGVlZFVwAFByb2dyYW06c3BlZWREb3duAFByb2dyYW06T25saW5lcnVuAFByb2dyYW06UmVzZXQAT1RSAFNwZWVkAA==</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

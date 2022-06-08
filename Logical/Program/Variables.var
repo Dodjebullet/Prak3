@@ -1,0 +1,7 @@
+VAR
+	STATE : UINT;
+	speedDown : BOOL;
+	speedUp : BOOL;
+	Reset : BOOL;
+	Onlinerun : USINT;
+END_VAR
